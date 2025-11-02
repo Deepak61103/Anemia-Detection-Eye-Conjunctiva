@@ -57,11 +57,9 @@ This critical phase ensures image quality is maintained and standardized before 
 
 This model focuses on isolating the conjunctiva from surrounding noise (eyelashes, reflections) using its robust encoder-decoder structure.
 
-![Architecture.jpg](Assets/Architecture.jpg)
-
 The **U-Net** model uses a **ResNet-34 backbone** in the encoder path for powerful feature extraction and skip connections to maintain high-resolution spatial details, resulting in a precise conjunctiva mask.
 
-![Segmentation_Model](Assets/Segmentation_Model.jpg)
+![Segmentation_Model](Assets/Segmentation_Model.png)
 
 ## 🎯 Step 2: Classification Model (MobileNetV3)
 
