@@ -67,7 +67,7 @@ The **U-Net** model uses a **ResNet-34 backbone** in the encoder path for powerf
 
 The segmented and resized conjunctiva image is classified by the **MobileNetV3-Large** model, chosen for its efficiency and transfer learning capabilities.
 
-> *(Place image tag for Fig 4.3.5.2 or Classification Architecture here)*
+![Classification_Model](Assets/Classification_Model.jpg)
 
 The pre-trained MobileNetV3-Large model is fine-tuned on the project’s clinical dataset to accurately predict one of the four anemia categories based on conjunctiva pallor characteristics.
 
