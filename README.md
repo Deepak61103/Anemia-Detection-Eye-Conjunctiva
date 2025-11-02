@@ -39,7 +39,7 @@ The system’s strength lies in its **modular pipeline**, ensuring only the most
 
 The flow diagram illustrates the end-to-end execution, including the **critical feedback loop** where poor-quality images are filtered and the user is prompted to retake the shot.
 
-> *(Place image tag for Fig 3.5.1 or System Flowchart here)*
+![Architecture.jpg](Assets/Architecture.jpg)
 
 ---
 
