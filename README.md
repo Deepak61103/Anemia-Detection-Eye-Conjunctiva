@@ -75,3 +75,23 @@ Ensure you have Python 3.11.4 or higher installed.
 ```bash
 git clone https://github.com/YourUsername/Anemia-Detection-Eye-Conjunctiva-AI.git
 cd Anemia-Detection-Eye-Conjunctiva-AI
+```
+
+
+### 3. Install Dependencies
+You must install the necessary libraries listed in requirements.txt.
+
+```bash
+pip install -r requirements.txt
+```
+
+### 4. Setup Models and Data
+Place your pre-trained .h5 model files into the ./models/ directory, and ensure your labeled_data.csv is in the ./data/ directory.
+
+### 5. Run the End-to-End Pipeline
+Execute the main script to start the system.
+
+```bash
+python src/main_pipeline.py
+```
+
