@@ -95,3 +95,4 @@ Execute the main script to start the system.
 python src/main_pipeline.py
 ```
 
+This command initiates the OpenCV camera capture and runs the image through the complete detection flow.
