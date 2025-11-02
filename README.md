@@ -1,4 +1,4 @@
-# ✨ Non-Invasive Anemia Detection from Eye Conjunctiva using Deep Learning & OpenCV
+# ✨ Anemia Detection from Eye Conjunctiva using OpenCV
 
 The **Anemia Detection System** is an AI-powered diagnostic tool developed to quickly, accurately, and non-invasively classify the severity of anemia by analyzing real-time images of the patient's eye conjunctiva.  
 This solution significantly enhances accessibility and affordability for early detection compared to traditional invasive blood tests.
