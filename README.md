@@ -62,16 +62,6 @@ The model's performance was validated against real-time, clinically labeled data
 
 The confusion matrix provides the critical clinical context for classification errors and demonstrates the reliability of the model across all four classes.
 
-## Repository Structure
-
-| Directory | Contents | Description |
-|-----------|----------|-------------|
-| src/ | capture.py, preprocessing.py, segment.py, classify.py, main_pipeline.py | Core Code: Contains all modular Python scripts and the main execution pipeline. |
-| models/ | unet_segmentation.h5, mobilenetv3_classification.h5 | Assets: Stores the trained, serialized weights for both the segmentation and classification models. |
-| data/ | raw_images/, labeled_data.csv | Data: Placeholder for the dataset (raw images and the metadata CSV). |
-| api/ | app.py | Deployment: Code required to wrap the model in a testable REST API (e.g., using Fast API). |
-| notebooks/ | Training_and_Evaluation.ipynb | Documentation: Detailed analysis, training logs, and model comparison notebooks. |
-
 ## Setup and Installation (How to Run)
 
 To set up and run the project locally, follow these steps:
