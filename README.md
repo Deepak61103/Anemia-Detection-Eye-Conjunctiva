@@ -43,7 +43,7 @@ The flow diagram illustrates the end-to-end execution, including the **critical 
 
 ---
 
-## 👁️ Image Preprocessing & Standardization
+## 👁️ Image Preprocessing 
 
 This critical phase ensures image quality is maintained and standardized before analysis:
 
@@ -61,7 +61,7 @@ The **U-Net** model uses a **ResNet-34 backbone** in the encoder path for powerf
 
 ![Segmentation_Model](Assets/Segmentation_Model.png)
 
-## 🎯 Step 2: Classification Model (MobileNetV3)
+## 🎯 Step 2: Classification Model (MobileNetV3Large Fine-tuned)
 
 The segmented and resized conjunctiva image is classified by the **MobileNetV3-Large** model, chosen for its efficiency and transfer learning capabilities.
 
